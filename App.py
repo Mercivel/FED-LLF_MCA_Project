@@ -55,17 +55,18 @@ if menu == "🏠 Home - Project About":
             st.metric("Privacy", "100% Protected")
     
     st.markdown("---")
+        st.markdown("---")
     st.markdown("### 👨‍🎓 Project Details")
-    st.markdown("""
-    Developed by: Oinam Malhotra Singh| MCA Final Year
-Project: FED-LLF - Federated Learning for Low Future Performance Prediction
-Dataset: ASSISTments Skill Builder (3,367 Students, 11 Features)
-Model: FedAvg with 79.22% Accuracy
-Privacy: 100% Protected - No raw data sharing
-Deployed Link: https://5inmwqee84hwfxmvewff8z.streamlit.app
-GitHub: FED-LLF_MCA_Project
-Institute: [NIELIT, IMPHAL] | Year: 2026
-    """)
+    st.markdown("**Developed by:** Oinam Malhotra Singh")
+    st.markdown("**Course:** MCA Final Year")
+    st.markdown("**Project:** FED-LLF - Federated Learning for Low Future Performance Prediction")
+    st.markdown("**Dataset:** ASSISTments Skill Builder (3,367 Students, 11 Features)")
+    st.markdown("**Best Model:** FedAvg with 79.22% Accuracy")
+    st.markdown("**Privacy:** 100% Protected - No raw data sharing")
+    st.markdown("**Deployed Link:** https://5inmwqee84hwfxmvewff8z.streamlit.app")
+    st.markdown("**GitHub:** FED-LLF_MCA_Project")
+    st.markdown("**Institute:** NIELIT, IMPHAL")
+    st.markdown("**Year:** 2025-26")
 
 # --- DATASET OVERVIEW ---
 elif menu == "📊 Dataset Overview":
