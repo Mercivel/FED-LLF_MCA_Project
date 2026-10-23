@@ -57,7 +57,9 @@ if menu == "🏠 Home - Project About":
     st.markdown("---")
     st.markdown("### 👨‍🎓 Project Details")
     st.markdown("""
-    **Developed by:** Oinam Malhotra Singh | MCA Final Year 
+    **Developed by:** Oinam Malhotra Singh | MCA Final Year
+     **Guide:** Laimujam Joy | Project Associate
+     **Institute:** NIELIT, IMPHAL 
     **Project:** FED-LLF - Federated Learning for Low Future Performance Prediction  
     **Dataset:** ASSISTments Skill Builder (3,367 Students, 11 Features)  
     **Best Model:** FedAvg with 79.22% Accuracy  
