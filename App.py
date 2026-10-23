@@ -72,7 +72,7 @@ if menu == "🏠 Home - Project About":
     st.markdown("**Dataset:** ASSISTments Skill Builder (3,367 Students, 11 Features)")
     st.markdown("**Model:** FedAvg with 79.22% Accuracy")
     st.markdown("**Privacy:** 100% Protected - No raw data sharing")
-    st.markdown("**Deployed Link:** https://5inmwqee84hwfxmvewff8z.streamlit.app")
+    st.markdown("**Deployed Link:** https://fed-llf-mca-mercivel.streamlit.app")
     st.markdown("**GitHub:** FED-LLF_MCA_Project")
     st.markdown("**Institute:** NIELIT, IMPHAL")
     st.markdown("**Year:** 2026")
