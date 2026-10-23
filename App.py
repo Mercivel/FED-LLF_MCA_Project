@@ -145,7 +145,8 @@ elif menu == "🔮 Live Prediction":
         past_acc_std = st.slider("Accuracy Std (past_acc_std)", 0.0, 0.5, 0.45)
     
     if st.button("🚀 Predict Future Performance", use_container_width=True):
-        risk_score = (1 - past_acc) * 0.4 + hint_rate * 0.3 + (attempt_mean - 1) * 0.1 + bottom_hint * 0.2
+        risk_score = (1 - past_acc) * 0.4 + hint_rate * 0.25 + min((attempt_mean - 1) / 9, 1.0) * 0.15 + bottom_hint * 0.2
+        risk_score = max(0.0, min(risk_score, 1.0))
         st.markdown("---")
         if risk_score > 0.5:
             st.error(f"⚠️ High Risk: Student is likely LOW performer (Risk Score: {risk_score:.2f}) - Needs Intervention!")
