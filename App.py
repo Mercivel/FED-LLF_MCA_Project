@@ -57,14 +57,14 @@ if menu == "🏠 Home - Project About":
     st.markdown("---")
     st.markdown("### 👨‍🎓 Project Details")
     st.markdown("""
-    **Developed by:** Mercivel Oinam | MCA Final Year  
+    **Developed by:** Oinam Malhotra Singh | MCA Final Year 
     **Project:** FED-LLF - Federated Learning for Low Future Performance Prediction  
     **Dataset:** ASSISTments Skill Builder (3,367 Students, 11 Features)  
     **Best Model:** FedAvg with 79.22% Accuracy  
     **Privacy:** 100% Protected - No raw data sharing  
     **Deployed Link:** https://5inmwqee84hwfxmvewff8z.streamlit.app  
     **GitHub:** FED-LLF_MCA_Project  
-    **Year:** 2025-26 | Ready for Viva!
+    **Year:** 2026 |
     """)
 
 # --- DATASET OVERVIEW ---
